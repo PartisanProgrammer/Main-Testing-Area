@@ -5,6 +5,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "New Individual Character", menuName = "Character/Individual Character")]
 public class  IndividualCharacterSO : GenericCharacterSO{
 
+    [Header("Individual objects")]
     //Health Object - Current hp, max hp, base max hp
     [SerializeField] public HealthSO healthSo;
     
@@ -12,7 +13,7 @@ public class  IndividualCharacterSO : GenericCharacterSO{
     [SerializeField] public ExperienceSO experienceSo;
     
     //Damage Object - Should have damage type, Base damage, current damage, 
-    [SerializeField] DamageSO damageSo;
+    [SerializeField] public DamageSO damageSo;
     
     //Position Object - Position, rotation? Transform object maybe?
     [SerializeField] public TransformSO transformSo;
@@ -20,8 +21,13 @@ public class  IndividualCharacterSO : GenericCharacterSO{
     //Stats Object - Strenght, Intelligence, Dexterity, Vulnerabilities and Effectiveness
     
     //Movement Object, current speed, max speed, base speed
-    [SerializeField] MovementSpeedSO movementSpeedSo;
+    [SerializeField] public MovementSpeedSO movementSpeedSo;
     
     //Ranges Object - Detection Range, attack range, 
+    
+    //Grounded
+    [SerializeField] public GroundedSO groundedSo;
+
+
 
 }
