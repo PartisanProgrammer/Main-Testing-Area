@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b12e2e5bd933ec34b89df49ed1399170, type: 3}
+  m_Name: Player
+  m_EditorClassIdentifier: 
+  identifierSo: {fileID: 11400000, guid: 9a99b9f80d976a54d82641f1171c7812, type: 2}
+  healthSo: {fileID: 11400000, guid: ea7b70f0c4215a444a2895fdcf942bfb, type: 2}
+  experienceSo: {fileID: 11400000, guid: daa3f25c58505a144a84d32687824db6, type: 2}
+  damageSo: {fileID: 11400000, guid: 0b1e6b5fb191689449d8873a9291ab18, type: 2}
+  transformSo: {fileID: 11400000, guid: db11b867d6cd95c429775ac9c6072164, type: 2}
+  movementSpeedSo: {fileID: 11400000, guid: c6262f82bac8b69479bc355a5691b41c, type: 2}
