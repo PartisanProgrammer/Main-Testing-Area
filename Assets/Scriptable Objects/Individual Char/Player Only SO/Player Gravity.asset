@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 324f78092447df24893f581d01fcf23b, type: 3}
   m_Name: Player Gravity
   m_EditorClassIdentifier: 
-  gravity: -9.81
-  baseGravity: -9.81
+  gravity: -19.62
+  baseGravity: -19.62

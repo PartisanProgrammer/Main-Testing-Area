@@ -13,6 +13,11 @@ public class PlayerMovement : MonoBehaviour{
     }
 
     void Update(){
+
+        if (characterSo.groundedSo.isGrounded && characterSo.movementSpeedSo.velocity.y < 0){
+            characterSo.movementSpeedSo.velocity.y = -2f;
+        }
+        
         float x = Input.GetAxis("Horizontal");
         float z = Input.GetAxis("Vertical");
 
