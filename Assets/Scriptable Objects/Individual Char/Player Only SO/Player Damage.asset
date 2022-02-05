@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbfffc09037ab1c448b8cc3940f5721b, type: 3}
   m_Name: Player Damage
   m_EditorClassIdentifier: 
-  minDamage: 0
-  maxDamage: 0
-  baseMinDamage: 0
-  baseMaxDamage: 0
+  minDamage: 4
+  maxDamage: 7
+  baseMinDamage: 4
+  baseMaxDamage: 7
   damageTypes:
   - {fileID: 11400000, guid: aae1e458518036c47b76c2e47aeab871, type: 2}

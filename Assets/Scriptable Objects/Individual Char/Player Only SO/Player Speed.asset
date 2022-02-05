@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 992bfd26d4be70146925515208d2f32d, type: 3}
   m_Name: Player Speed
   m_EditorClassIdentifier: 
-  currentSpeed: 0
-  maxSpeed: 0
-  baseSpeed: 0
-  baseMaxSpeed: 0
+  currentSpeed: 5
+  maxSpeed: 10
+  baseSpeed: 5
+  baseMaxSpeed: 10
