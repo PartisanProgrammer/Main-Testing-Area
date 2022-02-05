@@ -9,8 +9,7 @@ public class  IndividualCharacterSO : GenericCharacterSO{
     //Health Object - Current hp, max hp, base max hp
     [SerializeField] public HealthSO healthSo;
     
-    //Experience Object - Current Level, Max Level, Current Xp, XP Level threshhold,Levelup xp multiplier
-    [SerializeField] public ExperienceSO experienceSo;
+   
     
     //Damage Object - Should have damage type, Base damage, current damage, 
     [SerializeField] public DamageSO damageSo;
@@ -27,6 +26,15 @@ public class  IndividualCharacterSO : GenericCharacterSO{
     
     //Grounded
     [SerializeField] public GroundedSO groundedSo;
+    
+    //***Player Only***
+    [Header("Player Only")]
+    
+    //Experience Object - Current Level, Max Level, Current Xp, XP Level threshhold,Levelup xp multiplier
+    [SerializeField] public ExperienceSO experienceSo;
+    
+    //Jump Object
+    [SerializeField] public JumpSO jumpSo;
 
 
 

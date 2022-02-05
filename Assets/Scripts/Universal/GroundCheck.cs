@@ -13,9 +13,9 @@ public class GroundCheck : MonoBehaviour{
         set => characterSo.groundedSo.isGrounded = value;
     }
     void Update(){
-        characterSo.groundedSo.timeSinceGrounded -= Time.deltaTime;
+        characterSo.groundedSo.timeSinceGrounded += Time.deltaTime;
         if (characterSo.groundedSo.isGrounded){
-            characterSo.groundedSo.timeSinceGrounded = characterSo.groundedSo.maxTimeSinceGrounded;
+            characterSo.groundedSo.timeSinceGrounded = 0f;
         }
 
         GroundChecker();

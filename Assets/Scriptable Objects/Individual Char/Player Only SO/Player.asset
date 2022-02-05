@@ -15,8 +15,9 @@ MonoBehaviour:
   identifierSo: {fileID: 11400000, guid: 9a99b9f80d976a54d82641f1171c7812, type: 2}
   gravitySo: {fileID: 11400000, guid: 4bc7ff31d78053e43a6f6c9dfa94d90d, type: 2}
   healthSo: {fileID: 11400000, guid: ea7b70f0c4215a444a2895fdcf942bfb, type: 2}
-  experienceSo: {fileID: 11400000, guid: daa3f25c58505a144a84d32687824db6, type: 2}
   damageSo: {fileID: 11400000, guid: 0b1e6b5fb191689449d8873a9291ab18, type: 2}
   transformSo: {fileID: 11400000, guid: db11b867d6cd95c429775ac9c6072164, type: 2}
   movementSpeedSo: {fileID: 11400000, guid: c6262f82bac8b69479bc355a5691b41c, type: 2}
   groundedSo: {fileID: 11400000, guid: 76aeae8f8804f5b40a24b155aca7a90c, type: 2}
+  experienceSo: {fileID: 11400000, guid: daa3f25c58505a144a84d32687824db6, type: 2}
+  jumpSo: {fileID: 11400000, guid: 6fde0244daacda144ac9a6dae2976809, type: 2}

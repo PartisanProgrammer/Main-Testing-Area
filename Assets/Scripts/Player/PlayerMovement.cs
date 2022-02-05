@@ -22,6 +22,9 @@ public class PlayerMovement : MonoBehaviour{
         float z = Input.GetAxis("Vertical");
 
         Vector3 move = transform.right*x + transform.forward * z;
+        if (move.magnitude > 1){
+            move /= move.magnitude;
+        }
         _characterController.Move(move * characterSo.movementSpeedSo.currentSpeed * Time.deltaTime);
 
         characterSo.movementSpeedSo.velocity.y += characterSo.gravitySo.gravity * Time.deltaTime;
