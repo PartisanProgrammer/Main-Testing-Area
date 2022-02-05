@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 765ecd2b8ce93c34a8b36cb1f69eaa1c, type: 3}
   m_Name: Player Jump
   m_EditorClassIdentifier: 
-  jumpHeight: 5.043758
-  minJumpHeight: 5
-  maxJumpHeight: 10
+  jumpHeight: 0
+  minJumpHeight: 3
+  maxJumpHeight: 5
   jumpChargeTime: 0.5
   jumpCharge: 0
-  baseMinJumpHeight: 5
-  baseMaxJumpHeight: 10
+  baseMinJumpHeight: 3
+  baseMaxJumpHeight: 5
   baseJumpChargeTime: 0.5

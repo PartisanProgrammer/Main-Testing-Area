@@ -4,7 +4,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "New Generic Character", menuName = "Character/Generic Character")]
 public class GenericCharacterSO : ScriptableObject
 {
-    [Header("Generics")]
+    [Header("Basics")]
     //Identifier Object - Name, ID
     [SerializeField] public IdentifierSO identifierSo;
     

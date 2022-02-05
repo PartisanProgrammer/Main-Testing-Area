@@ -14,5 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentSpeed: 5
   maxSpeed: 10
+  sprintSpeed: 10
+  velocity: {x: 0, y: 0, z: 0}
   baseSpeed: 5
   baseMaxSpeed: 10
+  baseSprintSpeed: 10
