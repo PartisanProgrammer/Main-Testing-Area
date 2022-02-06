@@ -1,21 +1,27 @@
+using System;
 using UnityEngine;
 
 public class GroundCheck : MonoBehaviour{
-    [SerializeField] IndividualCharacterSO characterSo;
+    [SerializeField] AdvancedCharacterSO characterSo;
     
     [SerializeField] float groundCheckLenght = 1f;
     [SerializeField] float groundCheckRadius;
     [SerializeField] LayerMask groundLayers;
-    
+
+
+    GroundedSO _groundedSo;
+    void Awake(){
+        _groundedSo = characterSo.GetComponent<GroundedSO>();
+    }
 
     bool IsGrounded{
-        get => characterSo.groundedSo.isGrounded;
-        set => characterSo.groundedSo.isGrounded = value;
+        get => _groundedSo.isGrounded;
+        set => _groundedSo.isGrounded = value;
     }
     void Update(){
-        characterSo.groundedSo.timeSinceGrounded += Time.deltaTime;
-        if (characterSo.groundedSo.isGrounded){
-            characterSo.groundedSo.timeSinceGrounded = 0f;
+        _groundedSo.timeSinceGrounded += Time.deltaTime;
+        if (_groundedSo.isGrounded){
+            _groundedSo.timeSinceGrounded = 0f;
         }
 
         GroundChecker();

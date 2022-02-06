@@ -5,10 +5,10 @@ using UnityEngine;
 
 public class PlayerSprint : MonoBehaviour{
 
-    [SerializeField] IndividualCharacterSO characterSo;
+    [SerializeField] AdvancedCharacterSO characterSo;
     MovementSpeedSO movementSpeedSo;
     void Awake(){
-         movementSpeedSo = characterSo.movementSpeedSo;
+        movementSpeedSo = characterSo.GetComponent<MovementSpeedSO>();
     }
 
     void Update(){

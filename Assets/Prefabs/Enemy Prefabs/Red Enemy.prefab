@@ -19,6 +19,7 @@ GameObject:
   - component: {fileID: 7635853109451081235}
   - component: {fileID: 3648467626817735064}
   - component: {fileID: 5145944404920436485}
+  - component: {fileID: 7437858267169393923}
   m_Layer: 0
   m_Name: Red Enemy
   m_TagString: Untagged
@@ -163,7 +164,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7866695086693185001}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 53a9b9610f75e2c4680a7588fa80490a, type: 3}
   m_Name: 
@@ -194,8 +195,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f55a0fc31bddc542aa21785990356ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _experienceWorthSo: {fileID: 11400000, guid: 0d97274c781acc1479abdeeab7239d17, type: 2}
-  characterSo: {fileID: 11400000, guid: 3d4aeefcaa5856d4397735adef0a416c, type: 2}
+  targetCharacterSo: {fileID: 11400000, guid: 0130939ef8995c24b825968cad08d6b3, type: 2}
+  characterSo: {fileID: 11400000, guid: f7935f05eefc43e4db706e509133e266, type: 2}
 --- !u!114 &5145944404920436485
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -209,3 +210,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   baseHealthSo: {fileID: 11400000, guid: f38767e1a5a8a734683346ebb24ef22f, type: 2}
+--- !u!114 &7437858267169393923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7866695086693185001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43e9d1eccdf183b43b29913b30313120, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterSo: {fileID: 11400000, guid: f7935f05eefc43e4db706e509133e266, type: 2}

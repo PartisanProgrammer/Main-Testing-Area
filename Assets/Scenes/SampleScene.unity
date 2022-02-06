@@ -398,7 +398,7 @@ MonoBehaviour:
   m_BlockingObjects: 0
   m_BlockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 119
 --- !u!114 &357855284
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -875,6 +875,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1611751947 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4362443900176324423, guid: 4927625cf7be65340bc8d556b0c53d3a, type: 3}
+  m_PrefabInstance: {fileID: 1885479284}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1611751948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1611751947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b0b94683f4930943a1c44d821f9792e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  advancedCharacterSo: {fileID: 11400000, guid: 0130939ef8995c24b825968cad08d6b3, type: 2}
 --- !u!1001 &1885479284
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -882,6 +900,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 746915460, guid: 4927625cf7be65340bc8d556b0c53d3a, type: 3}
+      propertyPath: characterSo
+      value: 
+      objectReference: {fileID: 11400000, guid: 0130939ef8995c24b825968cad08d6b3, type: 2}
+    - target: {fileID: 746915461, guid: 4927625cf7be65340bc8d556b0c53d3a, type: 3}
+      propertyPath: characterSo
+      value: 
+      objectReference: {fileID: 11400000, guid: 0130939ef8995c24b825968cad08d6b3, type: 2}
+    - target: {fileID: 746915462, guid: 4927625cf7be65340bc8d556b0c53d3a, type: 3}
+      propertyPath: characterSo
+      value: 
+      objectReference: {fileID: 11400000, guid: 0130939ef8995c24b825968cad08d6b3, type: 2}
     - target: {fileID: 4362443900176324423, guid: 4927625cf7be65340bc8d556b0c53d3a, type: 3}
       propertyPath: m_Name
       value: Player
@@ -902,6 +932,14 @@ PrefabInstance:
       propertyPath: near clip plane
       value: 0.01
       objectReference: {fileID: 0}
+    - target: {fileID: 4733941028289118512, guid: 4927625cf7be65340bc8d556b0c53d3a, type: 3}
+      propertyPath: characterSo
+      value: 
+      objectReference: {fileID: 11400000, guid: 0130939ef8995c24b825968cad08d6b3, type: 2}
+    - target: {fileID: 4733941028289118514, guid: 4927625cf7be65340bc8d556b0c53d3a, type: 3}
+      propertyPath: characterSo
+      value: 
+      objectReference: {fileID: 11400000, guid: 0130939ef8995c24b825968cad08d6b3, type: 2}
     - target: {fileID: 4733941029203230161, guid: 4927625cf7be65340bc8d556b0c53d3a, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -950,7 +988,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4733941028289118505, guid: 4927625cf7be65340bc8d556b0c53d3a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 4927625cf7be65340bc8d556b0c53d3a, type: 3}
 --- !u!1001 &1990434585
 PrefabInstance:

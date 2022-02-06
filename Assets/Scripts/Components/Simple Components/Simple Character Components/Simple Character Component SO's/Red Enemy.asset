@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8046f0933207294b864c92b619b4366, type: 3}
+  m_Name: Red Enemy
+  m_EditorClassIdentifier: 
+  components:
+  - {fileID: 11400000, guid: c1507fe595c8b69418d351313c114fb6, type: 2}
+  - {fileID: 11400000, guid: f38767e1a5a8a734683346ebb24ef22f, type: 2}
+  - {fileID: 11400000, guid: 0d97274c781acc1479abdeeab7239d17, type: 2}
+  - {fileID: 11400000, guid: 7acba928ba8417341912c1ab2df74acb, type: 2}
