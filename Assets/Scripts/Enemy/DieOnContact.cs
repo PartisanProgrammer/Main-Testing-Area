@@ -25,8 +25,6 @@ public class DieOnContact : MonoBehaviour
         var collisionIdentifier = collision.gameObject.GetComponent<IndividualCharacterHolder>()?.characterSo.identifierSo;
         if (collisionIdentifier == _targetIdentifier)
         {
-            impactForceMultiplier *= collision.rigidbody.mass;
-            collision.rigidbody.AddRelativeForce(_rigidbody.velocity * impactForceMultiplier,ForceMode.Impulse);
             _giveExperience.GiveXP();
             this.gameObject.SetActive(false);
         }

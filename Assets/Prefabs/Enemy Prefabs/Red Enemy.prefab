@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 9129619249323460545}
   - component: {fileID: 7635853109451081235}
   - component: {fileID: 3648467626817735064}
+  - component: {fileID: 5145944404920436485}
   m_Layer: 0
   m_Name: Red Enemy
   m_TagString: Untagged
@@ -195,3 +196,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _experienceWorthSo: {fileID: 11400000, guid: 0d97274c781acc1479abdeeab7239d17, type: 2}
   characterSo: {fileID: 11400000, guid: 3d4aeefcaa5856d4397735adef0a416c, type: 2}
+--- !u!114 &5145944404920436485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7866695086693185001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4bf9da6538d27847b91e0d3cd66e48c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseHealthSo: {fileID: 11400000, guid: f38767e1a5a8a734683346ebb24ef22f, type: 2}

@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-[CreateAssetMenu(fileName = "New Generic Character", menuName = "Character/Generic Character")]
+[CreateAssetMenu(fileName = "New Non Individual Character", menuName = "Character/Non Individual Character")]
 public class GenericCharacterSO : ScriptableObject
 {
     [Header("Basics")]
