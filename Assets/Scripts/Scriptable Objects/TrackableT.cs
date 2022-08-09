@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,7 +8,7 @@ public class TrackableT<T> : ScriptableObject
 {
 
     [SerializeField] protected T _value;
-    [HideInInspector] public UnityEvent<T> CallbackOnValueChanged;
+    [HideInInspector] public UnityEvent<T> CallbackOnValueChangedEvent;
 
     public T Value
     {
@@ -18,7 +19,11 @@ public class TrackableT<T> : ScriptableObject
         set
         {
             _value = value;
-            CallbackOnValueChanged.Invoke(_value);
+            CallbackOnValueChangedEvent.Invoke(_value);
         }
+    }
+
+    void OnEnable(){
+        CallbackOnValueChangedEvent = new UnityEvent<T>();
     }
 }

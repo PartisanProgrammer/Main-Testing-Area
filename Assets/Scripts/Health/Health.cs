@@ -43,6 +43,16 @@ public class Health : MonoBehaviour, IDamageable, IHealable{
         Debug.Log(transform.name + CurrentHealth);
     }
 
+    // int CalculateDamage(int amount, DamageTypeSO damageTypeSo){
+    //     foreach (var VARIABLE in COLLECTION){
+    //         
+    //     }
+    //     //Foreach damageTypeSo in Vulnerabilities List
+    //     //if damageTypeSo == damageTypeSo
+    //     //amount *= effectiveDamageTypeModifier;
+    //     return amount;
+    // }
+
     public void Heal(int amount){
         CurrentHealth += amount;
        
